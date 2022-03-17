@@ -33,6 +33,25 @@ const Chapter3 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        Philosophy
+      </Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          People are at the core if software engineering<br></br>
+          <br></br>
+          Personalised one to one advice is always invalueble. Not scalable.
+          <br></br>
+          <br></br>
+          Documented knowledge. Scalable but more generalised.<br></br>
+          <br></br>
+          No a single knowledge-sharing approach is correct solution for all
+          types of learning
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 

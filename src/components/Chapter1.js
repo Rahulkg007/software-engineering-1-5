@@ -93,6 +93,41 @@ const Chapter1 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="subheading">Trade-offs and costs</Heading>
+      <Appear>
+      <UnorderedList fontSize="paragraph">
+        <ListItem fontSize="paragraph">
+          Financial Costs (e.g., Money)
+        </ListItem>
+        <ListItem fontSize="paragraph">
+          Resource Costs (e.g., CPU Time)
+        </ListItem>
+        <ListItem fontSize="paragraph">
+          Personnel Costs (e.g., Engineering effort)
+        </ListItem>
+        <ListItem fontSize="paragraph">
+          Transaction Costs (e.g., What does it cost to take action?)
+        </ListItem>
+        <ListItem fontSize="paragraph">
+          Opportunity Costs (e.g., What does it cost to not take action?)
+        </ListItem>
+        <ListItem fontSize="paragraph">
+          Societal Costs (e.g., What impact will this choice have on society at large)
+        </ListItem>
+      </UnorderedList>
+      </Appear>
+
+      <Appear>
+        <Text fontSize="paragraph">
+          Example: Markers
+          <br></br>
+          <br></br>
+          Example: Distributed Builds
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 

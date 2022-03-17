@@ -35,6 +35,7 @@ const theme = {
   },
   fontSizes: {
     header: '50px',
+    subheading:'40px',
     paragraph: '34px'
   },
   fonts: {

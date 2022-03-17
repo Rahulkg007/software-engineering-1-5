@@ -24,7 +24,7 @@ import {
 const Chapter1 = () => (
   <>
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header">What is Software Engineering?</Heading>
+      <Heading fontSize="header">1. What is Software Engineering?</Heading>
       <Appear>
         <Text fontSize="paragraph">
           Software Engineering is programming integrated over time?
@@ -39,11 +39,30 @@ const Chapter1 = () => (
       </Appear>
 
       <Appear>
+        <Text fontSize="paragraph">Programming is an individual effort</Text>
+        <Text fontSize="paragraph">Software engineering is a team effort</Text>
+      </Appear>
+    </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="subheading">Time and Change</Heading>
+      <Appear>
         <Text fontSize="paragraph">
-          Programming is an individual effort
+          Hyrum's Law - It works vs. is it maintainable <br></br>
+          <br></br>
+          Given enough time and enough users, even the most innocuous change{" "}
+          <i>will</i> break something
         </Text>
+      </Appear>
+
+      <Appear>
         <Text fontSize="paragraph">
-          Software engineering is a team effort
+          Why not aim for nothing changes. Everything has risk.<br></br>
+          <br></br>
+          Example - log4j<br></br>
+          <br></br>
+          We should not change just for the sake of change. But we do need to be
+          capable of change.
         </Text>
       </Appear>
     </Slide>

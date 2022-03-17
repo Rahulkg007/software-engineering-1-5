@@ -192,6 +192,26 @@ const Chapter3 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        Readability: Standarsidized Mentorship Through Code Review
+      </Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          At Google, "readability" refers to more than just code readability; it
+          is Standarsidized Google-wide mentorship process for disseminating
+          programming language best practices.
+        </Text>
+      </Appear>
+      <Appear>
+        <Text fontSize="paragraph">
+          Every changelist (CL) required readability approval which indicates
+          that someone who has <i>readability certification</i> for that language has
+          approved the CL.
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 

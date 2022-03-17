@@ -25,6 +25,7 @@ import Chapter1 from "./Chapter1";
 import Chapter2 from "./Chapter2";
 import Chapter3 from "./Chapter3";
 import Chapter4 from "./Chapter4";
+import Chapter5 from "./Chapter5";
 
 const formidableLogo =
   "https://avatars2.githubusercontent.com/u/5078602?s=280&v=4";
@@ -89,6 +90,7 @@ const Presentation = () => (
     <Chapter2 />
     <Chapter3 />
     <Chapter4 />
+    <Chapter5 />
     <Slide>
       <FlexBox height="100%">
         <SpectacleLogo size={500} />

@@ -161,6 +161,37 @@ const Chapter3 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        Gaining your knowledge
+      </Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          <UnorderedList fontSize="paragraph">
+            <ListItem fontSize="paragraph">Ask Questions</ListItem>
+            <ListItem fontSize="paragraph">Understand Context</ListItem>
+            <ListItem fontSize="paragraph">Information Fragmentation</ListItem>
+            <ListItem fontSize="paragraph">
+              Ask the community: Group chats, mailing lists, Questions and
+              Answer Platform
+            </ListItem>
+            <ListItem fontSize="paragraph">
+              Scaling your knowledge: Office hours, Tech talk and classes,
+              Documentation and code
+            </ListItem>
+            <ListItem fontSize="paragraph">
+              Scaling your organisation Knowledge: Cultivating a
+              knowledge-sharing culture, Incentive and Recognition
+            </ListItem>
+            <ListItem fontSize="paragraph">
+              Establishing Canonical sources of information: Developer guides,
+              go /links, code labs, static anlysis
+            </ListItem>
+          </UnorderedList>
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 

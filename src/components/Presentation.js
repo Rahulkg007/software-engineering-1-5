@@ -31,7 +31,7 @@ const formidableLogo =
 const theme = {
   colors: {
     primary: '#555',
-    secondary: '#333',
+    secondary: '#004165',
     backgroundColor: '#efefef'
   },
   fontSizes: {

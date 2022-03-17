@@ -24,7 +24,7 @@ import {
 const Chapter2 = () => (
   <>
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header"  textAlign= "left">
+      <Heading fontSize="header" textAlign="left">
         2. Culture - How to work well in teams?
       </Heading>
       <Appear>
@@ -43,6 +43,34 @@ const Chapter2 = () => (
               <ListItem fontSize="paragraph">Pace of progress</ListItem>
               <ListItem fontSize="paragraph">In short, don't hide</ListItem>
             </UnorderedList>
+          </UnorderedList>
+        </Text>
+      </Appear>
+    </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        It's all about the team
+      </Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          The three pillars of social interaction
+          <UnorderedList fontSize="paragraph">
+            <ListItem fontSize="paragraph">Humility</ListItem>
+            <ListItem fontSize="paragraph">Respect</ListItem>
+            <ListItem fontSize="paragraph">Trust</ListItem>
+          </UnorderedList>
+        </Text>
+      </Appear>
+      <Appear>
+        <Text fontSize="paragraph">
+          Humility, Respect and Trust in practice<br></br>
+          <UnorderedList fontSize="paragraph">
+            <ListItem fontSize="paragraph">Lose the ego</ListItem>
+            <ListItem fontSize="paragraph">
+              Learn to give and take critism
+            </ListItem>
+            <ListItem fontSize="paragraph">Fail fast and iterate</ListItem>
           </UnorderedList>
         </Text>
       </Appear>

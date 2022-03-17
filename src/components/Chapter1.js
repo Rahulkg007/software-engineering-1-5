@@ -66,6 +66,29 @@ const Chapter1 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="subheading">Scale and Efficiency</Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          Codebase is sustainable when you are able to change all the things that you ought to change, safely, and could do so for the life of your codebase.<br></br>
+          <br></br>
+          Given enough time and enough users, even the most innocuous change{" "}
+          <i>will</i> break something
+        </Text>
+      </Appear>
+
+      <Appear>
+        <Text fontSize="paragraph">
+          Policies that don't scale<br></br>For example, traditional use of development branches has built-in scaling issues
+          <br></br>
+          <br></br>
+          Policies that scale well<br></br>If you like it then put a Continuous Integration (CI) test on it. For example, Google complier upgrade in 2006.<br>
+          </br>
+          Expertise, Stability, Conformity, Familiarity and Policy
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 

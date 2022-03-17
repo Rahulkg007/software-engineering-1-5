@@ -1,24 +1,10 @@
 import {
-  FlexBox,
   Heading,
-  SpectacleLogo,
   UnorderedList,
-  CodeSpan,
-  OrderedList,
   ListItem,
-  FullScreen,
-  Progress,
   Appear,
   Slide,
-  Deck,
   Text,
-  Grid,
-  Box,
-  Image,
-  CodePane,
-  MarkdownSlide,
-  MarkdownSlideSet,
-  Notes,
 } from "spectacle";
 
 const Chapter2 = () => (

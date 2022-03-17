@@ -22,6 +22,7 @@ import {
 } from "spectacle";
 
 import Chapter1 from "./Chapter1";
+import Chapter2 from "./Chapter2";
 
 const formidableLogo =
   "https://avatars2.githubusercontent.com/u/5078602?s=280&v=4";
@@ -34,8 +35,7 @@ const theme = {
     backgroundColor: '#efefef'
   },
   fontSizes: {
-    header: '50px',
-    subheading:'40px',
+    header: '52px',
     paragraph: '34px'
   },
   fonts: {
@@ -84,6 +84,7 @@ const SlideFragments = () => (
 const Presentation = () => (
   <Deck theme={theme} template={template} backgroundColor={'#fff'}>
     <Chapter1 />
+    <Chapter2 />
     <Slide>
       <FlexBox height="100%">
         <SpectacleLogo size={500} />

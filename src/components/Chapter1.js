@@ -24,7 +24,7 @@ import {
 const Chapter1 = () => (
   <>
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header">1. What is Software Engineering?</Heading>
+      <Heading fontSize="header"  textAlign= "left">1. What is Software Engineering?</Heading>
       <Appear>
         <Text fontSize="paragraph">
           Software Engineering is programming integrated over time?
@@ -45,7 +45,7 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="subheading">Time and Change</Heading>
+      <Heading fontSize="header"  textAlign= "left">Time and Change</Heading>
       <Appear>
         <Text fontSize="paragraph">
           Hyrum's Law - It works vs. is it maintainable <br></br>
@@ -68,7 +68,7 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="subheading">Scale and Efficiency</Heading>
+      <Heading fontSize="header"  textAlign= "left">Scale and Efficiency</Heading>
       <Appear>
         <Text fontSize="paragraph">
           Codebase is sustainable when you are able to change all the things
@@ -95,7 +95,7 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="subheading">Trade-offs and costs</Heading>
+      <Heading fontSize="header"  textAlign= "left">Trade-offs and costs</Heading>
       <Appear>
       <UnorderedList fontSize="paragraph">
         <ListItem fontSize="paragraph">

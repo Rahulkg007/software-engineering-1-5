@@ -24,7 +24,9 @@ import {
 const Chapter1 = () => (
   <>
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header"  textAlign= "left">1. What is Software Engineering?</Heading>
+      <Heading fontSize="header" textAlign="left">
+        1. What is Software Engineering?
+      </Heading>
       <Appear>
         <Text fontSize="paragraph">
           Software Engineering is programming integrated over time?
@@ -45,7 +47,9 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header"  textAlign= "left">Time and Change</Heading>
+      <Heading fontSize="header" textAlign="left">
+        Time and Change
+      </Heading>
       <Appear>
         <Text fontSize="paragraph">
           Hyrum's Law - It works vs. is it maintainable <br></br>
@@ -68,7 +72,22 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header"  textAlign= "left">Scale and Efficiency</Heading>
+      <Heading fontSize="header" textAlign="left">
+        Time and Change
+      </Heading>
+
+      <img
+        src="workflow_2x.png"
+        alt="xkcd"
+        width={"380px"}
+        style={{ margin: "0 auto" }}
+      ></img>
+    </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        Scale and Efficiency
+      </Heading>
       <Appear>
         <Text fontSize="paragraph">
           Codebase is sustainable when you are able to change all the things
@@ -95,28 +114,31 @@ const Chapter1 = () => (
     </Slide>
 
     <Slide backgroundColor="backgroundColor">
-      <Heading fontSize="header"  textAlign= "left">Trade-offs and costs</Heading>
+      <Heading fontSize="header" textAlign="left">
+        Trade-offs and costs
+      </Heading>
       <Appear>
-      <UnorderedList fontSize="paragraph">
-        <ListItem fontSize="paragraph">
-          Financial Costs (e.g., Money)
-        </ListItem>
-        <ListItem fontSize="paragraph">
-          Resource Costs (e.g., CPU Time)
-        </ListItem>
-        <ListItem fontSize="paragraph">
-          Personnel Costs (e.g., Engineering effort)
-        </ListItem>
-        <ListItem fontSize="paragraph">
-          Transaction Costs (e.g., What does it cost to take action?)
-        </ListItem>
-        <ListItem fontSize="paragraph">
-          Opportunity Costs (e.g., What does it cost to not take action?)
-        </ListItem>
-        <ListItem fontSize="paragraph">
-          Societal Costs (e.g., What impact will this choice have on society at large)
-        </ListItem>
-      </UnorderedList>
+        <UnorderedList fontSize="paragraph">
+          <ListItem fontSize="paragraph">
+            Financial Costs (e.g., Money)
+          </ListItem>
+          <ListItem fontSize="paragraph">
+            Resource Costs (e.g., CPU Time)
+          </ListItem>
+          <ListItem fontSize="paragraph">
+            Personnel Costs (e.g., Engineering effort)
+          </ListItem>
+          <ListItem fontSize="paragraph">
+            Transaction Costs (e.g., What does it cost to take action?)
+          </ListItem>
+          <ListItem fontSize="paragraph">
+            Opportunity Costs (e.g., What does it cost to not take action?)
+          </ListItem>
+          <ListItem fontSize="paragraph">
+            Societal Costs (e.g., What impact will this choice have on society
+            at large)
+          </ListItem>
+        </UnorderedList>
       </Appear>
 
       <Appear>

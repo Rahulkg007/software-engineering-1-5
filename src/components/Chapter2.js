@@ -75,6 +75,26 @@ const Chapter2 = () => (
         </Text>
       </Appear>
     </Slide>
+
+    <Slide backgroundColor="backgroundColor">
+      <Heading fontSize="header" textAlign="left">
+        Blameless Post-Mortem Culture
+      </Heading>
+      <Appear>
+        <Text fontSize="paragraph">
+          The three pillars of social interaction
+          <UnorderedList fontSize="paragraph">
+            <ListItem fontSize="paragraph">A brief summary of the event</ListItem>
+            <ListItem fontSize="paragraph">A Timeline of the event from discovery through investigation to resolution</ListItem>
+            <ListItem fontSize="paragraph">The primary cause of the event</ListItem>
+            <ListItem fontSize="paragraph">Impact and damage assessment</ListItem>
+            <ListItem fontSize="paragraph">A set of action items (with owners) to fix the problem immediately</ListItem>
+            <ListItem fontSize="paragraph">A set of action items to prevent the event from happening again</ListItem>
+            <ListItem fontSize="paragraph">Lessons learned</ListItem>
+          </UnorderedList>
+        </Text>
+      </Appear>
+    </Slide>
   </>
 );
 
